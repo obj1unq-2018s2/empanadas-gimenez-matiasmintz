@@ -8,6 +8,7 @@
 En "Empanadas Giménez", un modesto local de delivery de empanadas, tenemos dos empleados:
 
 * Giménez, que cobra un sueldo fijo. El valor arranca en $ 15.000, y después puede cambiar mes a mes.
+
 * Baigorria, el joven y esforzado empleado de Giménez, cobra en base a la cantidad de empanadas vendidas (actualmente $ 15 por empanada).
 
 Un tercer empleado, el señor Galván, es el encargado de pagarle el sueldo a los empleados, y de gestionar el dinero qe se utiliza para esto. Asumimos que Galván arranca con un fondo para sueldos de $ 300.000. Como los sueldos salen de este fondo, hay que descontar el importe correspondiente cuando Galván le paga a un empleado.
@@ -28,8 +29,11 @@ method pagarA(empleado) {
 }
 ```
 - probar haciendo que Galván le pague a Baigorria. Se rompe. ¿Por qué?
+
 - ¿qué método o métodos hay que agregar, en qué objeto u objetos, para que Galván le pueda pagar el sueldo a cualquiera de los dos empleados?
-- agregar esos métodos con el siguiente criterio: Giménez cuando cobra el sueldo lo suma a un acumulador de todo lo que cobró, agregarle la capacidad de entender el mensaje `totalCobrado()`. Baigorria no hace nada.
+
+- agregar esos métodos con el siguiente criterio:
+	Giménez cuando cobra el sueldo lo suma a un acumulador de todo lo que cobró, agregarle la capacidad de entender el mensaje `totalCobrado()`. Baigorria no hace nada.
 
 
 <br>
